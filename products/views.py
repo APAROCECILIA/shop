@@ -6,8 +6,8 @@ def error(request):
 def cart(request):
     return render(request, 'products/cart.html')
 
-def chackout(request):
-    return render(request, 'products/chackout.html')
+def checkout(request):
+    return render(request, 'products/checkout.html')
 
 
 def contact(request):
